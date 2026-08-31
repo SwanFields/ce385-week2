@@ -66,7 +66,7 @@ function findById(students, id){
 }
 
 function findByMajor(students, major){
-    return students.find(student => student.major === major);
+    return students.filter(student => student.major === major);
 }
 
 function hasFailingStudent(students){

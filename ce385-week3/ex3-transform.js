@@ -12,7 +12,7 @@ function getTotalScore(students){
 
 function getAverageScore(students){
     if (students.length === 0) return 0;
-    const sum = student.reduce((sumScore, student) => sumScore + student.score, 0);
+    const sum = students.reduce((sumScore, student) => sumScore + student.score, 0);
     return + (sum / student.length).toFixed(2);
 }
 
